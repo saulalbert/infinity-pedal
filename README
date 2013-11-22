@@ -21,8 +21,8 @@ middle, and right pedals cause mplayer to rewind, pause/play, and fast-forward,
 respectively. The limitation is that mplayer does not take input from the
 console while being controlled by the pedal.
 
-This fork changes only one small parameter: mplayer will play continuously unless
-the pedal is depressed. A pedal up event will restart mplayer.
+This fork changes only one small parameter: mplayer will play continuously 
+unless the pedal is depressed. A pedal up event will restart mplayer.
 
 
 Suggested mplayer arguments for transcribing:
