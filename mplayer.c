@@ -38,6 +38,10 @@ void event_callback(pedal_context *context, int event, void *client_data)
         case PEDAL_EVENT_UP_MIDDLE:
             fprintf(mplayer_pipe, "pause\n");
             break;
+            
+        case PEDAL_EVENT_DOWN_MIDDLE:
+            fprintf(mplayer_pipe, "pause\n");
+            break;
 
         case PEDAL_EVENT_UP_RIGHT:
             fprintf(mplayer_pipe, "seek +5\n");
